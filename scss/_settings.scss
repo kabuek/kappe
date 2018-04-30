@@ -1,0 +1,42 @@
+$cw: #fff;
+$cg: #6b7072; ;
+$bgc: #242b2e;
+$label-bg: #30383c;
+$checked-bg: #22aeac;
+$hover-bg: #2db8b7;
+$container-bg: #b4b7b8;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: $cw;
+	line-height: 1.4;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: $cw;
+	line-height: 1.4;
+	text-decoration: none;
+}
+
+%flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+%h3 {
+	width: 100%;
+	font-size: 24px;
+	color: #000;
+	padding-bottom: 15px;
+}
+
+%preload {
+	display: block;
+	height: 30px;
+	background-color: $container-bg;
+}
