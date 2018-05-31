@@ -40,3 +40,10 @@ a {
 	height: 30px;
 	background-color: $container-bg;
 }
+
+.mb {
+	display: inline-block;
+	margin-bottom: 25px;
+	position: relative;
+	box-sizing: border-box;
+}
